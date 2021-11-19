@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+try {
+  throw new Exception("This is an exception");
+} catch(Exception $e) {
+  echo $e->getMessage();
+}
+?>
+
+</body>
+</html>
+
+
+
+
+
+
+
+This is an exception
